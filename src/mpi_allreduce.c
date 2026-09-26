@@ -1,0 +1,4 @@
+#include <mpi.h>
+#include <stdio.h>
+#include <stdlib.h>
+int main(int argc,char**argv){MPI_Init(&argc,&argv);int r=0,nr=0;MPI_Comm_rank(MPI_COMM_WORLD,&r);MPI_Comm_size(MPI_COMM_WORLD,&nr);long mib=argc>1?atol(argv[1]):64;int reps=argc>2?atoi(argv[2]):20;size_t n=(size_t)mib*1024ull*1024ull/sizeof(float);float*s=(float*)malloc(n*sizeof(float));float*d=(float*)malloc(n*sizeof(float));if(!s||!d)MPI_Abort(MPI_COMM_WORLD,2);for(size_t i=0;i<n;i++)s[i]=(float)r;for(int i=0;i<5;i++)MPI_Allreduce(s,d,(int)n,MPI_FLOAT,MPI_SUM,MPI_COMM_WORLD);MPI_Barrier(MPI_COMM_WORLD);double t0=MPI_Wtime();for(int i=0;i<reps;i++)MPI_Allreduce(s,d,(int)n,MPI_FLOAT,MPI_SUM,MPI_COMM_WORLD);MPI_Barrier(MPI_COMM_WORLD);double t=(MPI_Wtime()-t0)/reps;if(r==0)printf("ranks=%d payload_MiB=%ld avg_seconds=%.6f payload_GiBps=%.3f\n",nr,mib,t,((double)n*sizeof(float))/(1024.0*1024.0*1024.0)/t);free(s);free(d);MPI_Finalize();return 0;}

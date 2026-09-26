@@ -1,0 +1,50 @@
+{
+  "run_dir": "/mnt/lustre/master/mars/mars_bench_suite/mars_final_experiment/results/campaigns/mars_rep2_20260925_232733",
+  "jobs_total": 50,
+  "jobs_with_timestamps": 50,
+  "completed": 50,
+  "failed": 0,
+  "mean_queue_s": 1.56,
+  "mean_runtime_s": 25.46,
+  "mean_turnaround_s": 27.02,
+  "median_turnaround_s": 24.0,
+  "p95_turnaround_s": 54.0,
+  "makespan_s": 310.0,
+  "mean_cluster_gpu_util_pct": 44.65296803652968,
+  "accelerator_energy_wh": 24.536907597440795,
+  "accelerator_energy_kwh": 0.024536907597440795,
+  "mean_decision_ms": 1972.37776,
+  "p95_decision_ms": 5531.961,
+  "per_class": {
+    "dense_gpu": {
+      "n": 10,
+      "mean_queue_s": 1.6,
+      "mean_runtime_s": 20.4,
+      "mean_turnaround_s": 22.0
+    },
+    "ai_train": {
+      "n": 10,
+      "mean_queue_s": 1.5,
+      "mean_runtime_s": 26.2,
+      "mean_turnaround_s": 27.7
+    },
+    "gpu_mem": {
+      "n": 10,
+      "mean_queue_s": 1.6,
+      "mean_runtime_s": 24.3,
+      "mean_turnaround_s": 25.9
+    },
+    "host_mem": {
+      "n": 10,
+      "mean_queue_s": 1.4,
+      "mean_runtime_s": 51.8,
+      "mean_turnaround_s": 53.2
+    },
+    "storage": {
+      "n": 10,
+      "mean_queue_s": 1.7,
+      "mean_runtime_s": 4.6,
+      "mean_turnaround_s": 6.3
+    }
+  }
+}

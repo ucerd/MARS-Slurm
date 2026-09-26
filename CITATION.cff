@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "If you use MARS-Slurm, please cite the associated paper."
+title: "MARS-Slurm"
+type: software
+authors:
+  - family-names: "Hussain"
+    given-names: "Tassadaq"
+version: 1.0.0

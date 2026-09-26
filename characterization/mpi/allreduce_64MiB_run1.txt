@@ -1,0 +1,1 @@
+ranks=3 payload_MiB=64 avg_seconds=0.116773 payload_GiBps=0.535

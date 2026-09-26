@@ -1,0 +1,3 @@
+NODE=node03
+12282 MiB, 2 MiB
+allocated_gpu_mib=11500 hold_seconds=5

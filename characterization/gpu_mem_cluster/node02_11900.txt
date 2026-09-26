@@ -1,0 +1,4 @@
+NODE=node02
+12282 MiB, 2 MiB
+cudaMalloc 11900 MiB failed: out of memory
+srun: error: node02: task 0: Exited with exit code 3

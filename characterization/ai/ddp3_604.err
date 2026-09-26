@@ -1,0 +1,6 @@
+awk: cmd. line:1:  ~ /^192\.168\.20\./ {print $2; exit}
+awk: cmd. line:1:  ^ syntax error
+awk: cmd. line:1:  ~ /^192\.168\.20\./ {print $2; exit}
+awk: cmd. line:1:  ^ syntax error
+awk: cmd. line:1:  ~ /^192\.168\.20\./ {print $2; exit}
+awk: cmd. line:1:  ^ syntax error

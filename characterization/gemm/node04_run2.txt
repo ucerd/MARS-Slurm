@@ -1,0 +1,4 @@
+NODE=node04
+RUN=2
+GPU=NVIDIA GeForce RTX 4070 Ti N=8192 reps=20
+mean_seconds=0.013179 TFLOPS=83.429

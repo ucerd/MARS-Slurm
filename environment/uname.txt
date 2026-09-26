@@ -1,0 +1,1 @@
+Linux master-node 5.14.0-427.31.1_lustre.el9.x86_64 #1 SMP PREEMPT_DYNAMIC Fri Nov 8 23:53:47 UTC 2024 x86_64 x86_64 x86_64 GNU/Linux

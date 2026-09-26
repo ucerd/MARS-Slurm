@@ -1,0 +1,1 @@
+allocated_gpu_mib=11000 hold_seconds=5

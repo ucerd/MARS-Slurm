@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Compiled files
+*.o
+*.so
+bin/
+
+# Temporary files
+*.dat
+
+# Archives
+*.tar
+*.tar.gz
+*.zip
+
+# Credentials
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.pfx
+.ssh/
+
+# Editors / OS
+.vscode/
+.idea/
+*~
+*.swp
+.DS_Store
+Thumbs.db

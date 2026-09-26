@@ -1,0 +1,182 @@
+===== JOB =====
+SLURM_JOB_ID=604
+SLURM_JOB_NODELIST=node[02-04]
+WORLD_SIZE=3
+MASTER_ADDR=192.168.20.17
+===== ALLOCATED HOSTS =====
+node02
+node04
+node03
+HOST=node02 RANK=0 LOCAL_RANK=0 IFACE= CUDA_VISIBLE_DEVICES=0
+HOST=node04 RANK=2 LOCAL_RANK=0 IFACE= CUDA_VISIBLE_DEVICES=0
+HOST=node03 RANK=1 LOCAL_RANK=0 IFACE= CUDA_VISIBLE_DEVICES=0
+node04:40908:40908 [0] NCCL INFO cudaDriverVersion 12080
+node04:40908:40908 [0] NCCL INFO NCCL version 2.26.2+cuda12.2
+node04:40908:40927 [0] NCCL INFO NET/Plugin: Could not find: libnccl-net.so. Using internal net plugin.
+node04:40908:40927 [0] NCCL INFO NET/Socket : Using [0]ens1f0:192.168.20.19<0> [1]ens1f1:192.168.20.19<0>
+node04:40908:40927 [0] NCCL INFO PROFILER/Plugin: Could not find: libnccl-profiler.so. 
+node04:40908:40927 [0] NCCL INFO Using network Socket
+node04:40908:40927 [0] NCCL INFO ncclCommInitRankConfig comm 0x55a64e38cec0 rank 2 nranks 3 cudaDev 0 nvmlDev 0 busId 3000 commId 0x7f9326720ad8b7f - Init START
+node04:40908:40927 [0] NCCL INFO RAS client listening socket at ::1<28028>
+node04:40908:40927 [0] NCCL INFO NET/Socket : GPU Direct RDMA Disabled for HCA 0 'ens1f0'
+node04:40908:40927 [0] NCCL INFO Could not get speed from /sys/class/net/ens1f1/speed. Defaulting to 10 Gbps.
+node04:40908:40927 [0] NCCL INFO NET/Socket : GPU Direct RDMA Disabled for HCA 1 'ens1f1'
+node04:40908:40927 [0] NCCL INFO Setting affinity for GPU 0 to 0300,00000003
+node04:40908:40927 [0] NCCL INFO comm 0x55a64e38cec0 rank 2 nRanks 3 nNodes 3 localRanks 1 localRank 0 MNNVL 0
+node04:40908:40927 [0] NCCL INFO Trees [0] 1/-1/-1->2->0 [1] -1/-1/-1->2->0
+node04:40908:40927 [0] NCCL INFO P2P Chunksize set to 131072
+node04:40908:40929 [0] NCCL INFO [Proxy Service] Device 0 CPU core 1
+node04:40908:40930 [0] NCCL INFO [Proxy Service UDS] Device 0 CPU core 40
+node04:40908:40927 [0] NCCL INFO threadThresholds 8/8/64 | 24/8/64 | 512 | 512
+node04:40908:40927 [0] NCCL INFO 2 coll channels, 2 collnet channels, 0 nvls channels, 2 p2p channels, 2 p2p channels per peer
+node04:40908:40927 [0] NCCL INFO TUNER/Plugin: Could not find: libnccl-tuner.so. Using internal tuner plugin.
+node04:40908:40927 [0] NCCL INFO ncclCommInitRankConfig comm 0x55a64e38cec0 rank 2 nranks 3 cudaDev 0 nvmlDev 0 busId 3000 commId 0x7f9326720ad8b7f - Init COMPLETE
+node02:19128:19128 [0] NCCL INFO cudaDriverVersion 12080
+node02:19128:19128 [0] NCCL INFO NCCL version 2.26.2+cuda12.2
+node02:19128:19149 [0] NCCL INFO NET/Plugin: Could not find: libnccl-net.so. Using internal net plugin.
+node02:19128:19149 [0] NCCL INFO NET/Socket : Using [0]ens1f0np0:192.168.20.17<0>
+node02:19128:19149 [0] NCCL INFO PROFILER/Plugin: Could not find: libnccl-profiler.so. 
+node02:19128:19149 [0] NCCL INFO Using network Socket
+node02:19128:19149 [0] NCCL INFO ncclCommInitRankConfig comm 0x55b72cee28c0 rank 0 nranks 3 cudaDev 0 nvmlDev 0 busId 3000 commId 0x7f9326720ad8b7f - Init START
+node02:19128:19149 [0] NCCL INFO RAS client listening socket at ::1<28028>
+node02:19128:19149 [0] NCCL INFO NET/Socket : GPU Direct RDMA Disabled for HCA 0 'ens1f0np0'
+node02:19128:19149 [0] NCCL INFO Setting affinity for GPU 0 to 0300,00000003
+node02:19128:19149 [0] NCCL INFO comm 0x55b72cee28c0 rank 0 nRanks 3 nNodes 3 localRanks 1 localRank 0 MNNVL 0
+node02:19128:19149 [0] NCCL INFO Channel 00/02 : 0 1 2
+node04:40908:40927 [0] NCCL INFO Init timings - ncclCommInitRankConfig: rank 2 nranks 3 total 0.20 (kernels 0.14, alloc 0.00, bootstrap 0.05, allgathers 0.00, topo 0.00, graphs 0.00, connections 0.00, rest 0.00)
+node04:40908:40929 [0] NCCL INFO New proxy recv connection 0 from local rank 0, transport 2
+node04:40908:40932 [0] NCCL INFO [Proxy Progress] Device 0 CPU core 40
+node04:40908:40931 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x7fb1e4004f30
+node04:40908:40931 [0] NCCL INFO Channel 00/0 : 1[0] -> 2[0] [receive] via NET/Socket/0
+node04:40908:40929 [0] NCCL INFO New proxy recv connection 1 from local rank 0, transport 2
+node04:40908:40931 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x7fb1e4004fa8
+node04:40908:40931 [0] NCCL INFO Channel 01/0 : 1[0] -> 2[0] [receive] via NET/Socket/0
+node04:40908:40929 [0] NCCL INFO New proxy send connection 2 from local rank 0, transport 2
+node04:40908:40931 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x7fb1e4005020
+node02:19128:19149 [0] NCCL INFO Channel 01/02 : 0 1 2
+node02:19128:19149 [0] NCCL INFO Trees [0] 2/-1/-1->0->-1 [1] 2/-1/-1->0->1
+node02:19128:19149 [0] NCCL INFO P2P Chunksize set to 131072
+node02:19128:19149 [0] NCCL INFO Check P2P Type intraNodeP2pSupport 0 directMode 0
+node02:19128:19151 [0] NCCL INFO [Proxy Service] Device 0 CPU core 1
+node02:19128:19152 [0] NCCL INFO [Proxy Service UDS] Device 0 CPU core 0
+node02:19128:19149 [0] NCCL INFO threadThresholds 8/8/64 | 24/8/64 | 512 | 512
+node02:19128:19149 [0] NCCL INFO 2 coll channels, 2 collnet channels, 0 nvls channels, 2 p2p channels, 2 p2p channels per peer
+node02:19128:19149 [0] NCCL INFO CC Off, workFifoBytes 1048576
+node02:19128:19149 [0] NCCL INFO TUNER/Plugin: Could not find: libnccl-tuner.so. Using internal tuner plugin.
+node02:19128:19149 [0] NCCL INFO ncclCommInitRankConfig comm 0x55b72cee28c0 rank 0 nranks 3 cudaDev 0 nvmlDev 0 busId 3000 commId 0x7f9326720ad8b7f - Init COMPLETE
+node04:40908:40931 [0] NCCL INFO Channel 00/0 : 2[0] -> 0[0] [send] via NET/Socket/0
+node04:40908:40929 [0] NCCL INFO New proxy send connection 3 from local rank 0, transport 2
+node04:40908:40931 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x7fb1e4005098
+node04:40908:40931 [0] NCCL INFO Channel 01/0 : 2[0] -> 0[0] [send] via NET/Socket/0
+node04:40908:40931 [0] NCCL INFO Connected all rings, use ring PXN 0 GDR 0
+node04:40908:40929 [0] NCCL INFO New proxy recv connection 4 from local rank 0, transport 2
+node04:40908:40934 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x7fb1e4005110
+node04:40908:40934 [0] NCCL INFO Channel 00/0 : 0[0] -> 2[0] [receive] via NET/Socket/0
+node04:40908:40929 [0] NCCL INFO New proxy recv connection 5 from local rank 0, transport 2
+node04:40908:40934 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x7fb1e4005188
+node04:40908:40934 [0] NCCL INFO Channel 01/0 : 0[0] -> 2[0] [receive] via NET/Socket/0
+node02:19128:19149 [0] NCCL INFO Init timings - ncclCommInitRankConfig: rank 0 nranks 3 total 0.20 (kernels 0.19, alloc 0.00, bootstrap 0.01, allgathers 0.00, topo 0.00, graphs 0.00, connections 0.00, rest 0.00)
+node02:19128:19151 [0] NCCL INFO New proxy recv connection 0 from local rank 0, transport 2
+node02:19128:19154 [0] NCCL INFO [Proxy Progress] Device 0 CPU core 0
+node02:19128:19153 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x7fdca0004f30
+node02:19128:19153 [0] NCCL INFO Channel 00/0 : 2[0] -> 0[0] [receive] via NET/Socket/0
+node02:19128:19151 [0] NCCL INFO New proxy recv connection 1 from local rank 0, transport 2
+node02:19128:19153 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x7fdca0004fa8
+node02:19128:19153 [0] NCCL INFO Channel 01/0 : 2[0] -> 0[0] [receive] via NET/Socket/0
+node02:19128:19151 [0] NCCL INFO New proxy send connection 2 from local rank 0, transport 2
+node02:19128:19153 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x7fdca0005020
+node04:40908:40929 [0] NCCL INFO New proxy send connection 6 from local rank 0, transport 2
+node02:19128:19153 [0] NCCL INFO Channel 00/0 : 0[0] -> 1[0] [send] via NET/Socket/0
+node02:19128:19151 [0] NCCL INFO New proxy send connection 3 from local rank 0, transport 2
+node02:19128:19153 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x7fdca0005098
+node02:19128:19153 [0] NCCL INFO Channel 01/0 : 0[0] -> 1[0] [send] via NET/Socket/0
+node02:19128:19153 [0] NCCL INFO Connected all rings, use ring PXN 0 GDR 0
+node02:19128:19151 [0] NCCL INFO New proxy recv connection 4 from local rank 0, transport 2
+node02:19128:19156 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x7fdca0005110
+node02:19128:19156 [0] NCCL INFO Channel 01/0 : 1[0] -> 0[0] [receive] via NET/Socket/0
+node02:19128:19151 [0] NCCL INFO New proxy send connection 5 from local rank 0, transport 2
+node02:19128:19156 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x7fdca0005188
+node02:19128:19156 [0] NCCL INFO Channel 00/0 : 0[0] -> 2[0] [send] via NET/Socket/0
+node02:19128:19151 [0] NCCL INFO New proxy send connection 6 from local rank 0, transport 2
+node03:74697:74697 [0] NCCL INFO cudaDriverVersion 12080
+node03:74697:74697 [0] NCCL INFO NCCL version 2.26.2+cuda12.2
+node03:74697:74715 [0] NCCL INFO NET/Plugin: Could not find: libnccl-net.so. Using internal net plugin.
+node03:74697:74715 [0] NCCL INFO NET/Socket : Using [0]ens1f1:192.168.20.18<0>
+node03:74697:74715 [0] NCCL INFO PROFILER/Plugin: Could not find: libnccl-profiler.so. 
+node03:74697:74715 [0] NCCL INFO Using network Socket
+node03:74697:74715 [0] NCCL INFO ncclCommInitRankConfig comm 0x55e2b5a377c0 rank 1 nranks 3 cudaDev 0 nvmlDev 0 busId 3000 commId 0x7f9326720ad8b7f - Init START
+node03:74697:74715 [0] NCCL INFO RAS client listening socket at ::1<28028>
+node03:74697:74715 [0] NCCL INFO NET/Socket : GPU Direct RDMA Disabled for HCA 0 'ens1f1'
+node03:74697:74715 [0] NCCL INFO Setting affinity for GPU 0 to 0300,00000003
+node03:74697:74715 [0] NCCL INFO comm 0x55e2b5a377c0 rank 1 nRanks 3 nNodes 3 localRanks 1 localRank 0 MNNVL 0
+node03:74697:74715 [0] NCCL INFO Trees [0] -1/-1/-1->1->2 [1] 0/-1/-1->1->-1
+node03:74697:74715 [0] NCCL INFO P2P Chunksize set to 131072
+node03:74697:74717 [0] NCCL INFO [Proxy Service] Device 0 CPU core 1
+node03:74697:74718 [0] NCCL INFO [Proxy Service UDS] Device 0 CPU core 0
+node03:74697:74715 [0] NCCL INFO threadThresholds 8/8/64 | 24/8/64 | 512 | 512
+node03:74697:74715 [0] NCCL INFO 2 coll channels, 2 collnet channels, 0 nvls channels, 2 p2p channels, 2 p2p channels per peer
+node03:74697:74715 [0] NCCL INFO TUNER/Plugin: Could not find: libnccl-tuner.so. Using internal tuner plugin.
+node03:74697:74715 [0] NCCL INFO ncclCommInitRankConfig comm 0x55e2b5a377c0 rank 1 nranks 3 cudaDev 0 nvmlDev 0 busId 3000 commId 0x7f9326720ad8b7f - Init COMPLETE
+node03:74697:74715 [0] NCCL INFO Init timings - ncclCommInitRankConfig: rank 1 nranks 3 total 0.19 (kernels 0.18, alloc 0.00, bootstrap 0.00, allgathers 0.00, topo 0.00, graphs 0.00, connections 0.00, rest 0.00)
+node03:74697:74717 [0] NCCL INFO New proxy recv connection 0 from local rank 0, transport 2
+node03:74697:74720 [0] NCCL INFO [Proxy Progress] Device 0 CPU core 0
+node03:74697:74719 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x7f2428004f30
+node03:74697:74719 [0] NCCL INFO Channel 00/0 : 0[0] -> 1[0] [receive] via NET/Socket/0
+node03:74697:74717 [0] NCCL INFO New proxy recv connection 1 from local rank 0, transport 2
+node03:74697:74719 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x7f2428004fa8
+node03:74697:74719 [0] NCCL INFO Channel 01/0 : 0[0] -> 1[0] [receive] via NET/Socket/0
+node03:74697:74717 [0] NCCL INFO New proxy send connection 2 from local rank 0, transport 2
+node03:74697:74719 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x7f2428005020
+node03:74697:74719 [0] NCCL INFO Channel 00/0 : 1[0] -> 2[0] [send] via NET/Socket/0
+node03:74697:74717 [0] NCCL INFO New proxy send connection 3 from local rank 0, transport 2
+node03:74697:74719 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x7f2428005098
+node03:74697:74719 [0] NCCL INFO Channel 01/0 : 1[0] -> 2[0] [send] via NET/Socket/0
+node03:74697:74719 [0] NCCL INFO Connected all rings, use ring PXN 0 GDR 0
+node03:74697:74717 [0] NCCL INFO New proxy recv connection 4 from local rank 0, transport 2
+node03:74697:74724 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x7f2428005110
+node03:74697:74724 [0] NCCL INFO Channel 00/0 : 2[0] -> 1[0] [receive] via NET/Socket/0
+node03:74697:74717 [0] NCCL INFO New proxy send connection 5 from local rank 0, transport 2
+node03:74697:74724 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x7f2428005188
+node03:74697:74724 [0] NCCL INFO Channel 01/0 : 1[0] -> 0[0] [send] via NET/Socket/0
+node03:74697:74724 [0] NCCL INFO Connected all trees
+node03:74697:74733 [0] NCCL INFO socketProgressOpt: abort called
+node03:74697:74733 [0] NCCL INFO misc/socket.cc:64 -> 3
+node03:74697:74733 [0] NCCL INFO misc/socket.cc:80 -> 3
+node03:74697:74733 [0] NCCL INFO misc/socket.cc:829 -> 3
+node03:74697:74717 [0] NCCL INFO socketProgressOpt: abort called
+node02:19128:19156 [0] NCCL INFO Connec===== AI TRAINING BENCHMARK =====
+model=ResNet50
+world_size=3
+batch_per_gpu=32
+global_batch=96
+precision=AMP_FP16
+warmup_steps=20
+measured_steps=100
+elapsed_seconds=13.993252
+mean_step_ms=139.933
+throughput_images_per_sec=686.045
+peak_gpu_memory_GiB=1.711
+final_loss=0.002703
+gpu= NVIDIA GeForce RTX 4070 Ti
+node04:40908:40934 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x7fb1e4005200
+node04:40908:40934 [0] NCCL INFO Channel 00/0 : 2[0] -> 1[0] [send] via NET/Socket/0
+node04:40908:40934 [0] NCCL INFO Connected all trees
+node04:40908:40936 [0] NCCL INFO socketProgressOpt: abort called
+node04:40908:40936 [0] NCCL INFO misc/socket.cc:64 -> 3
+node04:40908:40936 [0] NCCL INFO misc/socket.cc:80 -> 3
+node04:40908:40936 [0] NCCL INFO misc/socket.cc:829 -> 3
+node04:40908:40929 [0] NCCL INFO socketProgressOpt: abort called
+node04:40908:40929 [0] NCCL INFO misc/socket.cc:881 -> 3
+node04:40908:40936 [0] NCCL INFO comm 0x55a64e38cec0 rank 2 nranks 3 cudaDev 0 busId 3000 - Abort COMPLETE
+node03:74697:74717 [0] NCCL INFO misc/socket.cc:881 -> 3
+node03:74697:74733 [0] NCCL INFO comm 0x55e2b5a377c0 rank 1 nranks 3 cudaDev 0 busId 3000 - Abort COMPLETE
+ted to proxy localRank 0 -> connection 0x7fdca0005200
+node02:19128:19156 [0] NCCL INFO Channel 01/0 : 0[0] -> 2[0] [send] via NET/Socket/0
+node02:19128:19156 [0] NCCL INFO Connected all trees
+node02:19128:19158 [0] NCCL INFO socketProgressOpt: abort called
+node02:19128:19158 [0] NCCL INFO misc/socket.cc:64 -> 3
+node02:19128:19158 [0] NCCL INFO misc/socket.cc:80 -> 3
+node02:19128:19158 [0] NCCL INFO misc/socket.cc:829 -> 3
+node02:19128:19151 [0] NCCL INFO socketProgressOpt: abort called
+node02:19128:19151 [0] NCCL INFO misc/socket.cc:881 -> 3
+node02:19128:19158 [0] NCCL INFO comm 0x55b72cee28c0 rank 0 nranks 3 cudaDev 0 busId 3000 - Abort COMPLETE
