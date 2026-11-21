@@ -1,0 +1,10 @@
+Verification of supplied raw records (offline; no cluster execution):
+compute40/baseline_rep1_20261114_181632: 40/40; job means and SDs match; driver, manifest, policy settings match; collector snapshot matches corrected source
+compute40/admission_only_rep1_20261114_185022: 40/40; job means and SDs match; driver, manifest, policy settings match; collector snapshot matches corrected source
+compute40/mars_rep1_20261114_193801: 40/40; job means and SDs match; driver, manifest, policy settings match; collector snapshot matches corrected source
+mixed25/baseline_rep1_20261114_151321: 25/25; job means and SDs match; driver, manifest, policy settings match; collector snapshot predates SSH correction (native baseline does not invoke placement collector)
+mixed25/admission_only_rep2_20261114_172053: 22/25; job means and SDs match; driver, manifest, policy settings match; collector snapshot matches corrected source
+mixed25/mars_rep2_20261114_171734: 25/25; job means and SDs match; driver, manifest, policy settings match; collector snapshot matches corrected source
+replicated50/baseline: 3 campaigns x 50 completed; six aggregate means and sample SDs match original comparison.json
+replicated50/mars: 3 campaigns x 50 completed; six aggregate means and sample SDs match original comparison.json
+Historical frozen archive and original public archive checksums also passed.

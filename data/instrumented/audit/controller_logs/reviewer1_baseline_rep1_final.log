@@ -1,0 +1,70 @@
+Working directory: /mnt/lustre/master/mars/mars_bench_suite/mars_final_experiment
+Mode: baseline Rep: 1 Nodes: node02,node03,node04
+Workload: 50 jobs at 2.0 seconds apart
+First and last: dense_gpu_01 storage_10
+Registered Slurm nodes: master-node,node01,node02,node03,node04,node05
+RUN_DIR= /mnt/lustre/master/mars/mars_bench_suite/mars_final_experiment/reviewer1_validation/baseline_rep1_20261114_130350
+Baseline: Slurm chooses one node among the candidate pool (using --exclude).
+01/50 job=1398 tag=dense_gpu_01 node(s)=node02,node03,node04 poll=0 error=
+02/50 job=1399 tag=ai_train_01 node(s)=node02,node03,node04 poll=0 error=
+03/50 job=1400 tag=gpu_mem_01 node(s)=node02,node03,node04 poll=0 error=
+04/50 job=1401 tag=host_mem_01 node(s)=node02,node03,node04 poll=0 error=
+05/50 job=1402 tag=storage_01 node(s)=node02,node03,node04 poll=0 error=
+06/50 job=1403 tag=dense_gpu_02 node(s)=node02,node03,node04 poll=0 error=
+07/50 job=1404 tag=ai_train_02 node(s)=node02,node03,node04 poll=0 error=
+08/50 job=1405 tag=gpu_mem_02 node(s)=node02,node03,node04 poll=0 error=
+09/50 job=1406 tag=host_mem_02 node(s)=node02,node03,node04 poll=0 error=
+10/50 job=1407 tag=storage_02 node(s)=node02,node03,node04 poll=0 error=
+11/50 job=1408 tag=dense_gpu_03 node(s)=node02,node03,node04 poll=0 error=
+12/50 job=1409 tag=ai_train_03 node(s)=node02,node03,node04 poll=0 error=
+13/50 job=1410 tag=gpu_mem_03 node(s)=node02,node03,node04 poll=0 error=
+14/50 job=1411 tag=host_mem_03 node(s)=node02,node03,node04 poll=0 error=
+15/50 job=1412 tag=storage_03 node(s)=node02,node03,node04 poll=0 error=
+16/50 job=1413 tag=dense_gpu_04 node(s)=node02,node03,node04 poll=0 error=
+17/50 job=1414 tag=ai_train_04 node(s)=node02,node03,node04 poll=0 error=
+18/50 job=1415 tag=gpu_mem_04 node(s)=node02,node03,node04 poll=0 error=
+19/50 job=1416 tag=host_mem_04 node(s)=node02,node03,node04 poll=0 error=
+20/50 job=1417 tag=storage_04 node(s)=node02,node03,node04 poll=0 error=
+21/50 job=1418 tag=dense_gpu_05 node(s)=node02,node03,node04 poll=0 error=
+22/50 job=1419 tag=ai_train_05 node(s)=node02,node03,node04 poll=0 error=
+23/50 job=1420 tag=gpu_mem_05 node(s)=node02,node03,node04 poll=0 error=
+24/50 job=1421 tag=host_mem_05 node(s)=node02,node03,node04 poll=0 error=
+25/50 job=1422 tag=storage_05 node(s)=node02,node03,node04 poll=0 error=
+26/50 job=1423 tag=dense_gpu_06 node(s)=node02,node03,node04 poll=0 error=
+27/50 job=1424 tag=ai_train_06 node(s)=node02,node03,node04 poll=0 error=
+28/50 job=1425 tag=gpu_mem_06 node(s)=node02,node03,node04 poll=0 error=
+29/50 job=1426 tag=host_mem_06 node(s)=node02,node03,node04 poll=0 error=
+30/50 job=1427 tag=storage_06 node(s)=node02,node03,node04 poll=0 error=
+31/50 job=1428 tag=dense_gpu_07 node(s)=node02,node03,node04 poll=0 error=
+32/50 job=1429 tag=ai_train_07 node(s)=node02,node03,node04 poll=0 error=
+33/50 job=1430 tag=gpu_mem_07 node(s)=node02,node03,node04 poll=0 error=
+34/50 job=1431 tag=host_mem_07 node(s)=node02,node03,node04 poll=0 error=
+35/50 job=1432 tag=storage_07 node(s)=node02,node03,node04 poll=0 error=
+36/50 job=1433 tag=dense_gpu_08 node(s)=node02,node03,node04 poll=0 error=
+37/50 job=1434 tag=ai_train_08 node(s)=node02,node03,node04 poll=0 error=
+38/50 job=1435 tag=gpu_mem_08 node(s)=node02,node03,node04 poll=0 error=
+39/50 job=1436 tag=host_mem_08 node(s)=node02,node03,node04 poll=0 error=
+40/50 job=1437 tag=storage_08 node(s)=node02,node03,node04 poll=0 error=
+41/50 job=1438 tag=dense_gpu_09 node(s)=node02,node03,node04 poll=0 error=
+42/50 job=1439 tag=ai_train_09 node(s)=node02,node03,node04 poll=0 error=
+43/50 job=1440 tag=gpu_mem_09 node(s)=node02,node03,node04 poll=0 error=
+44/50 job=1441 tag=host_mem_09 node(s)=node02,node03,node04 poll=0 error=
+45/50 job=1442 tag=storage_09 node(s)=node02,node03,node04 poll=0 error=
+46/50 job=1443 tag=dense_gpu_10 node(s)=node02,node03,node04 poll=0 error=
+47/50 job=1444 tag=ai_train_10 node(s)=node02,node03,node04 poll=0 error=
+48/50 job=1445 tag=gpu_mem_10 node(s)=node02,node03,node04 poll=0 error=
+49/50 job=1446 tag=host_mem_10 node(s)=node02,node03,node04 poll=0 error=
+50/50 job=1447 tag=storage_10 node(s)=node02,node03,node04 poll=0 error=
+Slurm queue drained. Querying sacct eligibility/accounting...
+
+================ VALIDATION SUMMARY ================
+baseline rep1: 46/50 completed with valid timestamps
+campaign makespan from first planned release: None
+  eligible_to_end_s: 91.69565217391305 s (n=46)
+  submit_to_end_s: 91.69565217391305 s (n=46)
+  release_to_end_s: 91.54009923913044 s (n=46)
+  release_to_submit_s: -0.1555529347826087 s (n=46)
+  start_to_end_s: 29.956521739130434 s (n=46)
+  decision_time_s: 0.0 s (n=46)
+====================================================
+FINISHED /mnt/lustre/master/mars/mars_bench_suite/mars_final_experiment/reviewer1_validation/baseline_rep1_20261114_130350

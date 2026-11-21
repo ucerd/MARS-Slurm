@@ -1,3 +1,4 @@
+import shlex
 #!/usr/bin/env python3
 import subprocess, concurrent.futures, re
 
@@ -41,7 +42,7 @@ def query_node(node):
         "--format=csv,noheader,nounits | head -1); "
         "echo IPADDR_BEGIN; ip -o -4 addr show; echo IPADDR_END"
     )
-    cmd = f"ssh -o BatchMode=yes -o ConnectTimeout=3 {node} {remote!r}"
+    cmd = f"ssh -o BatchMode=yes -o ConnectTimeout=3 {node} {shlex.quote(remote)}"
     p = run(cmd, timeout=20)
     if p.returncode != 0:
         return {"node": node, "ok": False, "error": p.stderr.strip()}

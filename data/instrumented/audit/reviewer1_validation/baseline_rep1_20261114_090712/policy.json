@@ -1,0 +1,60 @@
+{
+  "candidate_nodes": [
+    "node02",
+    "node03",
+    "node04"
+  ],
+  "excluded_nodes": [
+    "master-node",
+    "node01",
+    "node05"
+  ],
+  "guards": {
+    "host_memory_gib": 12.0,
+    "gpu_memory_gib": 0.5,
+    "lustre_free_gib": 100.0,
+    "max_gpu_temp_c": 75.0
+  },
+  "weights": {
+    "dense_gpu": {
+      "host_headroom": 0.1,
+      "gpu_headroom": 0.25,
+      "gpu_idle": 0.25,
+      "network": 0.1,
+      "load_idle": 0.1,
+      "thermal": 0.2
+    },
+    "ai_train": {
+      "host_headroom": 0.1,
+      "gpu_headroom": 0.2,
+      "gpu_idle": 0.25,
+      "network": 0.2,
+      "load_idle": 0.1,
+      "thermal": 0.15
+    },
+    "gpu_mem": {
+      "host_headroom": 0.1,
+      "gpu_headroom": 0.4,
+      "gpu_idle": 0.2,
+      "network": 0.05,
+      "load_idle": 0.1,
+      "thermal": 0.15
+    },
+    "host_mem": {
+      "host_headroom": 0.55,
+      "gpu_headroom": 0.0,
+      "gpu_idle": 0.0,
+      "network": 0.05,
+      "load_idle": 0.25,
+      "thermal": 0.15
+    },
+    "storage": {
+      "host_headroom": 0.1,
+      "gpu_headroom": 0.0,
+      "gpu_idle": 0.0,
+      "network": 0.55,
+      "load_idle": 0.2,
+      "thermal": 0.15
+    }
+  }
+}

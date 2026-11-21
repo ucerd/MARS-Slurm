@@ -1,0 +1,6 @@
+node02|idle
+node02|idle
+node03|idle
+node03|idle
+node04|idle
+node04|idle

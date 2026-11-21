@@ -1,0 +1,10 @@
+PASS: all five recorded server source hashes
+PASS: compute40/baseline: 40/40 completed; summaries and snapshots agree
+PASS: compute40/admission_only: 40/40 completed; summaries and snapshots agree
+PASS: compute40/mars: 40/40 completed; summaries and snapshots agree
+PASS: mixed25/baseline: 25/25 completed; summaries and snapshots agree
+PASS: mixed25/admission_only: 22/25 completed; summaries and snapshots agree
+PASS: mixed25/mars: 25/25 completed; summaries and snapshots agree
+PASS: replicated50/baseline: 3 x 50 completed, archived aggregate agrees
+PASS: replicated50/mars: 3 x 50 completed, archived aggregate agrees
+All offline checks passed. No live Slurm jobs were submitted.

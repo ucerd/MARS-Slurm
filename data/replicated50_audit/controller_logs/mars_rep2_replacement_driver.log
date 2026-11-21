@@ -1,0 +1,103 @@
+nohup: ignoring input
+RUN_DIR= /mnt/lustre/master/mars/mars_bench_suite/mars_final_experiment/results/campaigns/mars_rep2_20260925_232733
+01/50 978 dense_gpu_01 node02
+02/50 979 ai_train_01 node03
+03/50 980 gpu_mem_01 node04
+04/50 981 host_mem_01 node02
+05/50 982 storage_01 node04
+06/50 983 dense_gpu_02 node02
+07/50 984 ai_train_02 node03
+08/50 985 gpu_mem_02 node04
+09/50 986 host_mem_02 node04
+10/50 987 storage_02 node03
+11/50 988 dense_gpu_03 node02
+12/50 989 ai_train_03 node04
+13/50 990 gpu_mem_03 node03
+14/50 991 host_mem_03 node02
+15/50 992 storage_03 node03
+16/50 993 dense_gpu_04 node02
+17/50 994 ai_train_04 node03
+18/50 995 gpu_mem_04 node04
+19/50 996 host_mem_04 node03
+20/50 997 storage_04 node02
+21/50 998 dense_gpu_05 node02
+22/50 999 ai_train_05 node04
+23/50 1000 gpu_mem_05 node03
+24/50 1001 host_mem_05 node04
+25/50 1002 storage_05 node02
+26/50 1003 dense_gpu_06 node02
+27/50 1004 ai_train_06 node04
+28/50 1005 gpu_mem_06 node03
+29/50 1006 host_mem_06 node02
+30/50 1007 storage_06 node03
+31/50 1008 dense_gpu_07 node02
+32/50 1009 ai_train_07 node03
+33/50 1010 gpu_mem_07 node04
+34/50 1011 host_mem_07 node04
+35/50 1012 storage_07 node03
+36/50 1013 dense_gpu_08 node02
+37/50 1014 ai_train_08 node04
+38/50 1015 gpu_mem_08 node02
+39/50 1016 host_mem_08 node03
+40/50 1017 storage_08 node02
+41/50 1018 dense_gpu_09 node03
+42/50 1019 ai_train_09 node04
+43/50 1020 gpu_mem_09 node03
+44/50 1021 host_mem_09 node04
+45/50 1022 storage_09 node03
+46/50 1023 dense_gpu_10 node02
+47/50 1024 ai_train_10 node03
+48/50 1025 gpu_mem_10 node04
+49/50 1026 host_mem_10 node02
+50/50 1027 storage_10 node03
+{
+  "run_dir": "/mnt/lustre/master/mars/mars_bench_suite/mars_final_experiment/results/campaigns/mars_rep2_20260925_232733",
+  "jobs_total": 50,
+  "jobs_with_timestamps": 50,
+  "completed": 50,
+  "failed": 0,
+  "mean_queue_s": 1.56,
+  "mean_runtime_s": 25.46,
+  "mean_turnaround_s": 27.02,
+  "median_turnaround_s": 24.0,
+  "p95_turnaround_s": 54.0,
+  "makespan_s": 310.0,
+  "mean_cluster_gpu_util_pct": 44.65296803652968,
+  "accelerator_energy_wh": 24.536907597440795,
+  "accelerator_energy_kwh": 0.024536907597440795,
+  "mean_decision_ms": 1972.37776,
+  "p95_decision_ms": 5531.961,
+  "per_class": {
+    "dense_gpu": {
+      "n": 10,
+      "mean_queue_s": 1.6,
+      "mean_runtime_s": 20.4,
+      "mean_turnaround_s": 22.0
+    },
+    "ai_train": {
+      "n": 10,
+      "mean_queue_s": 1.5,
+      "mean_runtime_s": 26.2,
+      "mean_turnaround_s": 27.7
+    },
+    "gpu_mem": {
+      "n": 10,
+      "mean_queue_s": 1.6,
+      "mean_runtime_s": 24.3,
+      "mean_turnaround_s": 25.9
+    },
+    "host_mem": {
+      "n": 10,
+      "mean_queue_s": 1.4,
+      "mean_runtime_s": 51.8,
+      "mean_turnaround_s": 53.2
+    },
+    "storage": {
+      "n": 10,
+      "mean_queue_s": 1.7,
+      "mean_runtime_s": 4.6,
+      "mean_turnaround_s": 6.3
+    }
+  }
+}
+FINISHED /mnt/lustre/master/mars/mars_bench_suite/mars_final_experiment/results/campaigns/mars_rep2_20260925_232733

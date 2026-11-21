@@ -1,0 +1,44 @@
+Working directory: /mnt/lustre/master/mars/mars_bench_suite/mars_final_experiment
+Mode: mars Rep: 2 Nodes: node02,node03,node04
+Workload: 25 jobs at 2.0 seconds apart
+First and last: dense_gpu_01 storage_05
+Registered Slurm nodes: master-node,node01,node02,node03,node04,node05
+RUN_DIR= /mnt/lustre/master/mars/mars_bench_suite/mars_final_experiment/reviewer1_pilot_precreated/mars_rep2_20261114_171734
+01/25 job=1552 tag=dense_gpu_01 node(s)=node02 poll=1 error=
+02/25 job=1553 tag=ai_train_01 node(s)=node03 poll=1 error=
+03/25 job=1554 tag=gpu_mem_01 node(s)=node04 poll=1 error=
+04/25 job=1555 tag=host_mem_01 node(s)=node04 poll=1 error=
+05/25 job=1556 tag=storage_01 node(s)=node03 poll=1 error=
+09/25 job=1557 tag=host_mem_02 node(s)=node02 poll=1 error=
+10/25 job=1558 tag=storage_02 node(s)=node03 poll=1 error=
+06/25 job=1559 tag=dense_gpu_02 node(s)=node02 poll=5 error=
+14/25 job=1560 tag=host_mem_03 node(s)=node03 poll=1 error=
+11/25 job=1561 tag=dense_gpu_03 node(s)=node04 poll=3 error=
+15/25 job=1562 tag=storage_03 node(s)=node04 poll=1 error=
+12/25 job=1563 tag=ai_train_03 node(s)=node03 poll=3 error=
+20/25 job=1564 tag=storage_04 node(s)=node02 poll=1 error=
+13/25 job=1565 tag=gpu_mem_03 node(s)=node02 poll=5 error=
+08/25 job=1566 tag=gpu_mem_02 node(s)=node04 poll=9 error=
+25/25 job=1567 tag=storage_05 node(s)=node02 poll=1 error=
+18/25 job=1568 tag=gpu_mem_04 node(s)=node03 poll=5 error=
+24/25 job=1569 tag=host_mem_05 node(s)=node04 poll=3 error=
+16/25 job=1570 tag=dense_gpu_04 node(s)=node02 poll=7 error=
+19/25 job=1571 tag=host_mem_04 node(s)=node02 poll=6 error=
+17/25 job=1572 tag=ai_train_04 node(s)=node04 poll=8 error=
+23/25 job=1573 tag=gpu_mem_05 node(s)=node03 poll=9 error=
+21/25 job=1574 tag=dense_gpu_05 node(s)=node02 poll=12 error=
+22/25 job=1575 tag=ai_train_05 node(s)=node04 poll=16 error=
+07/25 job=1576 tag=ai_train_02 node(s)=node03 poll=26 error=
+Slurm queue drained. Querying sacct eligibility/accounting...
+
+================ VALIDATION SUMMARY ================
+mars rep2: 25/25 completed with valid timestamps
+campaign makespan from first planned release: 137.85411
+  eligible_to_end_s: 26.64 s (n=25)
+  submit_to_end_s: 26.64 s (n=25)
+  release_to_end_s: 47.93218876 s (n=25)
+  pre_submit_delay_s: 21.79090676 s (n=25)
+  start_to_end_s: 25.56 s (n=25)
+  decision_time_s: 3.7188506 s (n=25)
+====================================================
+FINISHED /mnt/lustre/master/mars/mars_bench_suite/mars_final_experiment/reviewer1_pilot_precreated/mars_rep2_20261114_171734

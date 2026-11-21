@@ -1,0 +1,60 @@
+Working directory: /mnt/lustre/master/mars/mars_bench_suite/mars_final_experiment
+Mode: baseline Rep: 1 Nodes: node02,node03,node04
+Workload: 40 jobs at 2.0 seconds apart
+First and last: dense_gpu_01 host_mem_10
+Registered Slurm nodes: master-node,node01,node02,node03,node04,node05
+RUN_DIR= /mnt/lustre/master/mars/mars_bench_suite/mars_final_experiment/reviewer1_compute40/baseline_rep1_20261114_181632
+Baseline: Slurm chooses one node among the candidate pool (using --exclude).
+01/40 job=1606 tag=dense_gpu_01 node(s)=node02,node03,node04 poll=0 error=
+02/40 job=1607 tag=ai_train_01 node(s)=node02,node03,node04 poll=0 error=
+03/40 job=1608 tag=gpu_mem_01 node(s)=node02,node03,node04 poll=0 error=
+04/40 job=1609 tag=host_mem_01 node(s)=node02,node03,node04 poll=0 error=
+05/40 job=1610 tag=dense_gpu_02 node(s)=node02,node03,node04 poll=0 error=
+06/40 job=1611 tag=ai_train_02 node(s)=node02,node03,node04 poll=0 error=
+07/40 job=1612 tag=gpu_mem_02 node(s)=node02,node03,node04 poll=0 error=
+08/40 job=1613 tag=host_mem_02 node(s)=node02,node03,node04 poll=0 error=
+09/40 job=1614 tag=dense_gpu_03 node(s)=node02,node03,node04 poll=0 error=
+10/40 job=1615 tag=ai_train_03 node(s)=node02,node03,node04 poll=0 error=
+11/40 job=1616 tag=gpu_mem_03 node(s)=node02,node03,node04 poll=0 error=
+12/40 job=1617 tag=host_mem_03 node(s)=node02,node03,node04 poll=0 error=
+13/40 job=1618 tag=dense_gpu_04 node(s)=node02,node03,node04 poll=0 error=
+14/40 job=1619 tag=ai_train_04 node(s)=node02,node03,node04 poll=0 error=
+15/40 job=1620 tag=gpu_mem_04 node(s)=node02,node03,node04 poll=0 error=
+16/40 job=1621 tag=host_mem_04 node(s)=node02,node03,node04 poll=0 error=
+17/40 job=1622 tag=dense_gpu_05 node(s)=node02,node03,node04 poll=0 error=
+18/40 job=1623 tag=ai_train_05 node(s)=node02,node03,node04 poll=0 error=
+19/40 job=1624 tag=gpu_mem_05 node(s)=node02,node03,node04 poll=0 error=
+20/40 job=1625 tag=host_mem_05 node(s)=node02,node03,node04 poll=0 error=
+21/40 job=1626 tag=dense_gpu_06 node(s)=node02,node03,node04 poll=0 error=
+22/40 job=1627 tag=ai_train_06 node(s)=node02,node03,node04 poll=0 error=
+23/40 job=1628 tag=gpu_mem_06 node(s)=node02,node03,node04 poll=0 error=
+24/40 job=1629 tag=host_mem_06 node(s)=node02,node03,node04 poll=0 error=
+25/40 job=1630 tag=dense_gpu_07 node(s)=node02,node03,node04 poll=0 error=
+26/40 job=1631 tag=ai_train_07 node(s)=node02,node03,node04 poll=0 error=
+27/40 job=1632 tag=gpu_mem_07 node(s)=node02,node03,node04 poll=0 error=
+28/40 job=1633 tag=host_mem_07 node(s)=node02,node03,node04 poll=0 error=
+29/40 job=1634 tag=dense_gpu_08 node(s)=node02,node03,node04 poll=0 error=
+30/40 job=1635 tag=ai_train_08 node(s)=node02,node03,node04 poll=0 error=
+31/40 job=1636 tag=gpu_mem_08 node(s)=node02,node03,node04 poll=0 error=
+32/40 job=1637 tag=host_mem_08 node(s)=node02,node03,node04 poll=0 error=
+33/40 job=1638 tag=dense_gpu_09 node(s)=node02,node03,node04 poll=0 error=
+34/40 job=1639 tag=ai_train_09 node(s)=node02,node03,node04 poll=0 error=
+35/40 job=1640 tag=gpu_mem_09 node(s)=node02,node03,node04 poll=0 error=
+36/40 job=1641 tag=host_mem_09 node(s)=node02,node03,node04 poll=0 error=
+37/40 job=1642 tag=dense_gpu_10 node(s)=node02,node03,node04 poll=0 error=
+38/40 job=1643 tag=ai_train_10 node(s)=node02,node03,node04 poll=0 error=
+39/40 job=1644 tag=gpu_mem_10 node(s)=node02,node03,node04 poll=0 error=
+40/40 job=1645 tag=host_mem_10 node(s)=node02,node03,node04 poll=0 error=
+Slurm queue drained. Querying sacct eligibility/accounting...
+
+================ VALIDATION SUMMARY ================
+baseline rep1: 40/40 completed with valid timestamps
+campaign makespan from first planned release: 257.968334
+  eligible_to_end_s: 97.35 s (n=40)
+  submit_to_end_s: 97.35 s (n=40)
+  release_to_end_s: 97.316218175 s (n=40)
+  pre_submit_delay_s: 0.009211074999999999 s (n=40)
+  start_to_end_s: 29.85 s (n=40)
+  decision_time_s: 0.0 s (n=40)
+====================================================
+FINISHED /mnt/lustre/master/mars/mars_bench_suite/mars_final_experiment/reviewer1_compute40/baseline_rep1_20261114_181632

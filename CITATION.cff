@@ -1,8 +1,15 @@
 cff-version: 1.2.0
-message: "If you use MARS-Slurm, please cite the associated paper."
+message: "If you use this software, please cite this version and the associated manuscript."
 title: "MARS-Slurm"
 type: software
 authors:
   - family-names: "Hussain"
     given-names: "Tassadaq"
-version: 1.0.0
+  - family-names: "Haider"
+    given-names: "Amna"
+  - family-names: "Alharbi"
+    given-names: "Soltan"
+version: "1.1.0"
+repository-code: "https://github.com/ucerd/MARS-Slurm"
+license: MIT
+abstract: "Telemetry-driven resource-aware admission and placement sidecar for Slurm GPU clusters."

@@ -1,0 +1,15 @@
+CLASS=ai_train HOST=node03 JOB=647
+===== AI TRAINING BENCHMARK =====
+model=ResNet50
+world_size=1
+batch_per_gpu=32
+global_batch=32
+precision=AMP_FP16
+warmup_steps=20
+measured_steps=500
+elapsed_seconds=20.095387
+mean_step_ms=40.191
+throughput_images_per_sec=796.203
+peak_gpu_memory_GiB=1.616
+final_loss=0.000062
+gpu= NVIDIA GeForce RTX 4070 Ti

@@ -1,0 +1,2 @@
+CLASS=host_mem HOST=node04 JOB=971
+allocated_host_gib=88.00 hold_seconds=20

@@ -1,0 +1,60 @@
+Working directory: /mnt/lustre/master/mars/mars_bench_suite/mars_final_experiment
+Mode: admission_only Rep: 1 Nodes: node02,node03,node04
+Workload: 40 jobs at 2.0 seconds apart
+First and last: dense_gpu_01 host_mem_10
+Registered Slurm nodes: master-node,node01,node02,node03,node04,node05
+RUN_DIR= /mnt/lustre/master/mars/mars_bench_suite/mars_final_experiment/reviewer1_compute40/admission_only_rep1_20261114_185022
+Admission-only: guards restrict to FEASIBLE nodes using --exclude; ranking ignored.
+01/40 job=1646 tag=dense_gpu_01 node(s)=node02,node03,node04 poll=1 error=
+02/40 job=1647 tag=ai_train_01 node(s)=node02,node03,node04 poll=1 error=
+03/40 job=1648 tag=gpu_mem_01 node(s)=node02,node03,node04 poll=1 error=
+04/40 job=1649 tag=host_mem_01 node(s)=node02,node03,node04 poll=1 error=
+05/40 job=1650 tag=dense_gpu_02 node(s)=node02 poll=1 error=
+06/40 job=1651 tag=ai_train_02 node(s)=node02 poll=1 error=
+07/40 job=1652 tag=gpu_mem_02 node(s)=node02 poll=1 error=
+08/40 job=1653 tag=host_mem_02 node(s)=node02,node04 poll=1 error=
+09/40 job=1654 tag=dense_gpu_03 node(s)=node02 poll=1 error=
+10/40 job=1655 tag=ai_train_03 node(s)=node02 poll=1 error=
+11/40 job=1656 tag=gpu_mem_03 node(s)=node02 poll=1 error=
+12/40 job=1657 tag=host_mem_03 node(s)=node02,node04 poll=1 error=
+13/40 job=1658 tag=dense_gpu_04 node(s)=node02 poll=1 error=
+14/40 job=1659 tag=ai_train_04 node(s)=node02 poll=1 error=
+15/40 job=1660 tag=gpu_mem_04 node(s)=node02 poll=1 error=
+16/40 job=1661 tag=host_mem_04 node(s)=node02,node04 poll=1 error=
+17/40 job=1662 tag=dense_gpu_05 node(s)=node02,node04 poll=1 error=
+18/40 job=1663 tag=ai_train_05 node(s)=node02,node03,node04 poll=1 error=
+19/40 job=1664 tag=gpu_mem_05 node(s)=node02,node03,node04 poll=1 error=
+20/40 job=1665 tag=host_mem_05 node(s)=node02 poll=1 error=
+21/40 job=1666 tag=dense_gpu_06 node(s)=node02,node03,node04 poll=1 error=
+22/40 job=1667 tag=ai_train_06 node(s)=node02,node03,node04 poll=1 error=
+23/40 job=1668 tag=gpu_mem_06 node(s)=node02,node03,node04 poll=1 error=
+24/40 job=1669 tag=host_mem_06 node(s)=node02 poll=1 error=
+25/40 job=1670 tag=dense_gpu_07 node(s)=node02,node03,node04 poll=1 error=
+26/40 job=1671 tag=ai_train_07 node(s)=node02,node03,node04 poll=1 error=
+27/40 job=1672 tag=gpu_mem_07 node(s)=node03,node04 poll=1 error=
+28/40 job=1673 tag=host_mem_07 node(s)=node02 poll=1 error=
+29/40 job=1674 tag=dense_gpu_08 node(s)=node02,node03,node04 poll=1 error=
+30/40 job=1675 tag=ai_train_08 node(s)=node02,node03,node04 poll=1 error=
+31/40 job=1676 tag=gpu_mem_08 node(s)=node03,node04 poll=1 error=
+32/40 job=1677 tag=host_mem_08 node(s)=node02,node03 poll=1 error=
+33/40 job=1678 tag=dense_gpu_09 node(s)=node02,node03,node04 poll=1 error=
+34/40 job=1679 tag=ai_train_09 node(s)=node02,node03,node04 poll=1 error=
+35/40 job=1680 tag=gpu_mem_09 node(s)=node04 poll=1 error=
+36/40 job=1681 tag=host_mem_09 node(s)=node02,node03 poll=1 error=
+37/40 job=1682 tag=dense_gpu_10 node(s)=node03,node04 poll=1 error=
+38/40 job=1683 tag=ai_train_10 node(s)=node03,node04 poll=1 error=
+39/40 job=1684 tag=gpu_mem_10 node(s)=node04 poll=1 error=
+40/40 job=1685 tag=host_mem_10 node(s)=node02,node03 poll=1 error=
+Slurm queue drained. Querying sacct eligibility/accounting...
+
+================ VALIDATION SUMMARY ================
+admission_only rep1: 40/40 completed with valid timestamps
+campaign makespan from first planned release: 428.374204
+  eligible_to_end_s: 167.65 s (n=40)
+  submit_to_end_s: 167.65 s (n=40)
+  release_to_end_s: 168.02214130000002 s (n=40)
+  pre_submit_delay_s: 0.74612125 s (n=40)
+  start_to_end_s: 30.5 s (n=40)
+  decision_time_s: 0.738129275 s (n=40)
+====================================================
+FINISHED /mnt/lustre/master/mars/mars_bench_suite/mars_final_experiment/reviewer1_compute40/admission_only_rep1_20261114_185022

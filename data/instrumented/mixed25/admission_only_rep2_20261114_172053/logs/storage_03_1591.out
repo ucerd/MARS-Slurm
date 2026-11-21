@@ -1,0 +1,10 @@
+CLASS=storage
+HOST=node04
+JOB=1591
+FILE=/mnt/lustre/master/mars/mars_bench_suite/results/workload_data/1591_node04.dat
+FILE_SETUP_BEGIN=2026-11-14T17:22:55,236975642+05:00
+FILE_SETUP_END=2026-11-14T17:22:55,243387975+05:00
+FIO_WRITE_BEGIN=2026-11-14T17:22:55,244519358+05:00
+seqwrite: (g=0): rw=write, bs=(R) 1024KiB-1024KiB, (W) 1024KiB-1024KiB, (T) 1024KiB-1024KiB, ioengine=libaio, iodepth=16
+fio-3.35
+Starting 1 process

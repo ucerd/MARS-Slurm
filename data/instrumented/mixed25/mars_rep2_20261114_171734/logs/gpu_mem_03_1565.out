@@ -1,0 +1,2 @@
+CLASS=gpu_mem HOST=node02 JOB=1565
+allocated_gpu_mib=10000 hold_seconds=20

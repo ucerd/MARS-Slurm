@@ -1,0 +1,45 @@
+Working directory: /mnt/lustre/master/mars/mars_bench_suite/mars_final_experiment
+Mode: baseline Rep: 1 Nodes: node02,node03,node04
+Workload: 25 jobs at 2.0 seconds apart
+First and last: dense_gpu_01 storage_05
+Registered Slurm nodes: master-node,node01,node02,node03,node04,node05
+RUN_DIR= /mnt/lustre/master/mars/mars_bench_suite/mars_final_experiment/reviewer1_pilot/baseline_rep1_20261114_143959
+Baseline: Slurm chooses one node among the candidate pool (using --exclude).
+01/25 job=1461 tag=dense_gpu_01 node(s)=node02,node03,node04 poll=0 error=
+02/25 job=1462 tag=ai_train_01 node(s)=node02,node03,node04 poll=0 error=
+03/25 job=1463 tag=gpu_mem_01 node(s)=node02,node03,node04 poll=0 error=
+04/25 job=1464 tag=host_mem_01 node(s)=node02,node03,node04 poll=0 error=
+05/25 job=1465 tag=storage_01 node(s)=node02,node03,node04 poll=0 error=
+06/25 job=1466 tag=dense_gpu_02 node(s)=node02,node03,node04 poll=0 error=
+07/25 job=1467 tag=ai_train_02 node(s)=node02,node03,node04 poll=0 error=
+08/25 job=1468 tag=gpu_mem_02 node(s)=node02,node03,node04 poll=0 error=
+09/25 job=1469 tag=host_mem_02 node(s)=node02,node03,node04 poll=0 error=
+10/25 job=1470 tag=storage_02 node(s)=node02,node03,node04 poll=0 error=
+11/25 job=1471 tag=dense_gpu_03 node(s)=node02,node03,node04 poll=0 error=
+12/25 job=1472 tag=ai_train_03 node(s)=node02,node03,node04 poll=0 error=
+13/25 job=1473 tag=gpu_mem_03 node(s)=node02,node03,node04 poll=0 error=
+14/25 job=1474 tag=host_mem_03 node(s)=node02,node03,node04 poll=0 error=
+15/25 job=1475 tag=storage_03 node(s)=node02,node03,node04 poll=0 error=
+16/25 job=1476 tag=dense_gpu_04 node(s)=node02,node03,node04 poll=0 error=
+17/25 job=1477 tag=ai_train_04 node(s)=node02,node03,node04 poll=0 error=
+18/25 job=1478 tag=gpu_mem_04 node(s)=node02,node03,node04 poll=0 error=
+19/25 job=1479 tag=host_mem_04 node(s)=node02,node03,node04 poll=0 error=
+20/25 job=1480 tag=storage_04 node(s)=node02,node03,node04 poll=0 error=
+21/25 job=1481 tag=dense_gpu_05 node(s)=node02,node03,node04 poll=0 error=
+22/25 job=1482 tag=ai_train_05 node(s)=node02,node03,node04 poll=0 error=
+23/25 job=1483 tag=gpu_mem_05 node(s)=node02,node03,node04 poll=0 error=
+24/25 job=1484 tag=host_mem_05 node(s)=node02,node03,node04 poll=0 error=
+25/25 job=1485 tag=storage_05 node(s)=node02,node03,node04 poll=0 error=
+Slurm queue drained. Querying sacct eligibility/accounting...
+
+================ VALIDATION SUMMARY ================
+baseline rep1: 24/25 completed with valid timestamps
+campaign makespan from first planned release: None
+  eligible_to_end_s: 55.916666666666664 s (n=24)
+  submit_to_end_s: 55.916666666666664 s (n=24)
+  release_to_end_s: 55.691957125 s (n=24)
+  pre_submit_delay_s: 0.010660666666666667 s (n=24)
+  start_to_end_s: 28.791666666666668 s (n=24)
+  decision_time_s: 0.0 s (n=24)
+====================================================
+FINISHED /mnt/lustre/master/mars/mars_bench_suite/mars_final_experiment/reviewer1_pilot/baseline_rep1_20261114_143959

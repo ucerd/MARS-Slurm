@@ -1,0 +1,71 @@
+{
+  "mode": "mars",
+  "rep": 1,
+  "n_jobs": 40,
+  "n_submitted": 40,
+  "n_sacct_records": 40,
+  "n_valid_completed": 40,
+  "campaign_makespan_from_first_planned_release_s": 261.330008,
+  "mean_gpu_utilization_pct": 52.223918575063614,
+  "sampled_gpu_energy_kwh": 0.02328096495644583,
+  "gpu_samples": 393,
+  "metrics": {
+    "pre_submit_delay_s": {
+      "n": 40,
+      "mean": 69.32718115,
+      "sample_std": 60.777160821280276
+    },
+    "release_to_eligible_s": {
+      "n": 40,
+      "mean": 68.877869075,
+      "sample_std": 60.76808926769715
+    },
+    "release_to_start_s": {
+      "n": 40,
+      "mean": 70.002869075,
+      "sample_std": 60.4997437311537
+    },
+    "release_to_end_s": {
+      "n": 40,
+      "mean": 100.402869075,
+      "sample_std": 58.11537998637635
+    },
+    "submit_to_start_s": {
+      "n": 40,
+      "mean": 1.125,
+      "sample_std": 0.6864064729836441
+    },
+    "submit_to_end_s": {
+      "n": 40,
+      "mean": 31.525,
+      "sample_std": 13.204481562459518
+    },
+    "eligible_to_end_s": {
+      "n": 40,
+      "mean": 31.525,
+      "sample_std": 13.204481562459518
+    },
+    "start_to_end_s": {
+      "n": 40,
+      "mean": 30.4,
+      "sample_std": 13.102749760338526
+    },
+    "decision_time_s": {
+      "n": 40,
+      "mean": 5.5105289,
+      "sample_std": 5.523289880775075
+    },
+    "release_delay_s": {
+      "n": 40,
+      "mean": 0.002138925,
+      "sample_std": 0.00031726316727236445
+    }
+  },
+  "limitations": [
+    "New experiment, not the archived September 2026 campaign.",
+    "Admission_only excludes nodes outside the feasible set; Slurm chooses from feasible nodes.",
+    "Seconds in Slurm accounting; release timestamp has subsecond precision.",
+    "Only tracked experiment jobs are used for MARS campaign reservations.",
+    "Synchronous telemetry + sbatch is serialized to avoid simultaneous selection races."
+  ]
+}

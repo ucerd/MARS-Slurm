@@ -3,12 +3,12 @@ __pycache__/
 *.pyc
 *.pyo
 
-# Compiled files
+# Compiled objects/binaries
 *.o
 *.so
 bin/
 
-# Temporary files
+# Temporary benchmark data
 *.dat
 
 # Archives
@@ -16,7 +16,7 @@ bin/
 *.tar.gz
 *.zip
 
-# Credentials
+# Credentials / private configuration
 .env
 .env.*
 *.key
@@ -25,10 +25,31 @@ bin/
 *.pfx
 .ssh/
 
-# Editors / OS
+# Editors
 .vscode/
 .idea/
 *~
 *.swp
+
+# OS
 .DS_Store
 Thumbs.db
+
+# Never commit SSH identities or sensitive exports
+id_rsa*
+id_ed25519*
+id_ecdsa*
+id_dsa*
+*ssh-agent*
+*.ppk
+*.kdbx
+*.token
+credentials.json
+secrets.json
+# Local experiment outputs (publish curated copies under data/)
+/results/
+/reviewer1_compute40/
+/reviewer1_pilot*/
+/reviewer1_validation*/
+/reviewer1_storage_diagnostics/
+/reviewer1_final_protocol/

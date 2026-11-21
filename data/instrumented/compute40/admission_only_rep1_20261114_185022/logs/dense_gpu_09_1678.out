@@ -1,0 +1,3 @@
+CLASS=dense_gpu HOST=node04 JOB=1678
+GPU=NVIDIA GeForce RTX 4070 Ti N=8192 reps=1500
+mean_seconds=0.013219 TFLOPS=83.177

@@ -1,0 +1,2 @@
+pytorch/2.5.1 (Python 3.9) is kept for existing workflows; the current version
+is torch/2.14.1-cu126 (Python 3.12). 

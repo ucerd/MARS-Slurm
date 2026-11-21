@@ -1,0 +1,33 @@
+Working directory: /mnt/lustre/master/mars/mars_bench_suite/mars_final_experiment
+Mode: mars Rep: 1 Nodes: node02,node03,node04
+Workload: 25 jobs at 2.0 seconds apart
+First and last: dense_gpu_01 storage_05
+Registered Slurm nodes: master-node,node01,node02,node03,node04,node05
+RUN_DIR= /mnt/lustre/master/mars/mars_bench_suite/mars_final_experiment/reviewer1_pilot_precreated/mars_rep1_20261114_161306
+01/25 job=1512 tag=dense_gpu_01 node(s)=node02 poll=1 error=
+02/25 job=1513 tag=ai_train_01 node(s)=node03 poll=1 error=
+04/25 job=1514 tag=host_mem_01 node(s)=node04 poll=1 error=
+05/25 job=1515 tag=storage_01 node(s)=node02 poll=1 error=
+06/25 job=1516 tag=dense_gpu_02 node(s)=node04 poll=1 error=
+09/25 job=1517 tag=host_mem_02 node(s)=node02 poll=1 error=
+10/25 job=1518 tag=storage_02 node(s)=node03 poll=1 error=
+12/25 job=1519 tag=ai_train_03 node(s)=node02 poll=1 error=
+14/25 job=1520 tag=host_mem_03 node(s)=node03 poll=1 error=
+15/25 job=1521 tag=storage_03 node(s)=node04 poll=1 error=
+16/25 job=1522 tag=dense_gpu_04 node(s)=node03 poll=1 error=
+11/25 job=1523 tag=dense_gpu_03 node(s)=node04 poll=5 error=
+20/25 job=1524 tag=storage_04 node(s)=node03 poll=1 error=
+21/25 job=1525 tag=dense_gpu_05 node(s)=node02 poll=2 error=
+25/25 job=1526 tag=storage_05 node(s)=node02 poll=1 error=
+22/25 job=1527 tag=ai_train_05 node(s)=node03 poll=2 error=
+19/25 job=1528 tag=host_mem_04 node(s)=node04 poll=4 error=
+07/25 job=1529 tag=ai_train_02 node(s)=node04 poll=11 error=
+24/25 job=1530 tag=host_mem_05 node(s)=node02 poll=4 error=
+17/25 job=1531 tag=ai_train_04 node(s)=node02 poll=7 error=
+03/25 job=NONE tag=gpu_mem_01 node(s)=NONE poll=254 error=Admission timed out after 900 seconds
+08/25 job=NONE tag=gpu_mem_02 node(s)=NONE poll=254 error=Admission timed out after 900 seconds
+13/25 job=NONE tag=gpu_mem_03 node(s)=NONE poll=254 error=Admission timed out after 900 seconds
+18/25 job=NONE tag=gpu_mem_04 node(s)=NONE poll=255 error=Admission timed out after 900 seconds
+23/25 job=NONE tag=gpu_mem_05 node(s)=NONE poll=258 error=Admission timed out after 900 seconds
+ERROR: Not all jobs were submitted. Inspect release_jobs.csv.
+FINISHED /mnt/lustre/master/mars/mars_bench_suite/mars_final_experiment/reviewer1_pilot_precreated/mars_rep1_20261114_161306

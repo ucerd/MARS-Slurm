@@ -1,0 +1,4 @@
+Working directory: /mnt/lustre/master/mars/mars_bench_suite/mars_final_experiment
+Mode: baseline Rep: 1 Nodes: node02,node03,node04
+Workload: 50 jobs at 2.0 seconds apart
+First and last: dense_gpu_01 storage_10
